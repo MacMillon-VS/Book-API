@@ -245,7 +245,7 @@ const addNewAuthor=AuthorModel.create(newAuthor);
   return res.json({authors: addNewAuthor, message: "Author was added"});
 });
 
-//ADD NEW AUTHORS
+//ADD NEW Publications
 /*
 Route           /publication/new
 Description     add new publications
